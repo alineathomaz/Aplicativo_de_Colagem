@@ -26,7 +26,7 @@ function speak()
     var synth = window.speechSynthesis;
     Webcam.attach(camera);
 
-    speak_data = "Tirando sua primeira selfie em 5 segundos";
+    speak_data = "Tirando sua próxima selfie em 5 segundos";
     var utterThis = new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
 
